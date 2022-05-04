@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(to right,white, #c68fca, #a890fe); 
+    margin: 100px;
+    padding: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    margin: 50px;
+}
+
+h1 s {
+    color: #8370c9;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: serif;
+    margin: 40px;
+}
+
+button {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: #db2682;
+    border-color: white;
+    border-radius: 50px;
+    margin: 50px 50px;
+    padding: 30px;
+}
+
+button:hover {
+    background-color: #dd81af;
+}
