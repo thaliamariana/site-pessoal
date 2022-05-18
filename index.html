@@ -5,14 +5,31 @@
     <title>Olá, mundo</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Righteous&family=Sarala:wght@400;700&family=Slabo+13px&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <h1>Olá, <s>mundo</s> pessoa!</h1>
-        <h2>Escolha um botão e veja o que acontece! (carinha assustadora)</h2>
-        <button>Start</button>
-        <button>Start</button>
-        <button>Start</button>
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="#">Página inicial</a>
+            <a class="cabecalho-menu-item" href="#">Sobre</a>
+            <a class="cabecalho-menu-item" href="#">Contatos</a>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="container-texto">
+            <section>
+                <h1 class="container-titulo">Olá, <s>mundo</s> visitante!</h1>
+                <h2 class="container-subtitulo">Navegue pelas opções no canto superior direito ou clique diretamente nos botões abaixo.</h2>
+            </section>
+
+            <section>
+                <h2 class="container-apresentacao">Eu sou a Thalía e você está em um site pensado e criado por mim. Bem-vinde!</h2>
+            </section>
+        </div>
+        
+        <button class="botao-principal">Sobre</button>
+        <button class="botao-principal">Contatos</button>
     </main>
 </body>
 </html>

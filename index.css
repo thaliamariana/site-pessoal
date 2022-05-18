@@ -1,39 +1,71 @@
 body {
-    background-image: linear-gradient(to right,white, #c68fca, #a890fe); 
-    margin: 100px;
-    padding: 100px;
+    background: linear-gradient(116.88deg, #543153 0%, #161223 99.75%);
+    font-family: 'Slabo 13px', serif;
 }
 
-h1 {
-    text-align: center;
-    font-size: 80px;
+/* header */
+.cabecalho {
+    padding: 46px 0;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 104px;
+    margin: 0 104px 0 0;
+}
+
+.cabecalho-menu-item {
+    text-decoration: none;
     color: white;
-    margin: 50px;
+    font-size: 20px;
+}
+
+
+/* main */
+.container {
+    margin: 150px 266px 0 266px;
+}
+
+.container-texto {
+    display: flex;
+}
+
+.container-titulo {
+    color: white;
+    font-size: 55px;
+    width: 429px;
+    margin: 0 0 0 0;
 }
 
 h1 s {
-    color: #8370c9;
+    color: #C669E7;
 
 }
 
-h2 {
-    text-align: center;
-    font-size: 40px;
+.container-subtitulo {
     color: white;
-    font-family: serif;
-    margin: 40px;
+    font-size: 24px;
+    width: 376px;
 }
 
-button {
-    text-transform: uppercase;
+.container-apresentacao {
+    text-align: right;
+    color: white;
+    font-size: 24px;
+    width: 396px;
+    margin: 232px 0 0 100px;
+}
+
+.botao-principal {
     text-align: center;
-    font-size: 30px;
     color: white;
     background-color: #db2682;
     border-color: white;
     border-radius: 50px;
-    margin: 50px 50px;
-    padding: 30px;
+    transition: background .3s;
+    justify-content: center;
 }
 
 button:hover {
